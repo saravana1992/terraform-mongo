@@ -1,4 +1,4 @@
-# terraform-mongo
+# Terraform-mongodb
 
 This module is primary written for provisioning of GCE instance from our Mongodb image
 
