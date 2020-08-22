@@ -27,7 +27,7 @@ Variables.tf explanation  (followed by default values if applicable) :
 
 ```hcl
 module "mongodb-prod" {
-  source = "./terraform-mongodb"
+  source = "./mongodb"
   project = "my-gcp-project"
   zone = "europe-west3-c"
   instance_name = "mongodb-prod"
