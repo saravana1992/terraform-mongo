@@ -38,7 +38,7 @@ cat << EOF > /tmp/createuser
 db.createUser(
    {
      user: "root",
-     pwd: "thispasswordisnotverysecretitwillbechanged",
+     pwd: "test@mongo#a91",
      roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
    }
 )
